@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ background-color: black;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+
+}
+.inputs{
+    gap: 20px;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+.Reto{
+    height: 80%;
+    width: 80%;
+}
+.inputs button{
+    cursor: pointer;
+    height: 70%;
+    width: 80px;
+    background-color: rgb(173, 50, 50);
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.inputs input{
+  
+    display: none;
+
+
+}
+.custom-file-upload {
+    
+    font-weight: 600;
+    height: 70%;
+    width: 80px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+     background-color: rgb(255, 255, 255);
+    padding: 12px 25px;
+    cursor: pointer;
+}
